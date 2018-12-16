@@ -5,7 +5,8 @@
   :dependencies [[org.clojure/clojure "1.9.0"]
                  [duct/core "0.6.2"]
                  [duct/module.logging "0.3.1"]
-                 [duct/module.web "0.6.4"]]
+                 [duct/module.web "0.6.4"]
+                 [hiccup "1.0.5"]]
   :plugins [[duct/lein-duct "0.10.6"]]
   :main ^:skip-aot hello.main
   :resource-paths ["resources" "target/resources"]
